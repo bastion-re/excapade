@@ -1,3 +1,4 @@
+
 {-# LANGUAGE QuasiQuotes #-}
 module Main where
 
@@ -11,7 +12,7 @@ import System.IO
 
 import Excapade.DeBruijn
 
-alphabet = "abcdef"
+alphabet = "123456789abcdef"
 window_size = 4
 mkpattern = deBruijn alphabet window_size
 
